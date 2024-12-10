@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/game.css">
+    <script defer src="../js/game.js"></script>
+
+    <title>Memory Game | Login</title>
+</head>
+<body>
+
+    <main>
+        
+        <header>
+            <span class="player">Lucas</span>
+            <span>Tempo: <span class="timer">00:00</span> </span>
+            <span>Jogadas: <span class="moves">0</span></span>
+
+            <!-- Botões para Reiniciar e Sair -->
+            <button id="restartBtn" disabled >Reiniciar</button>
+            <button id="exitBtn">Sair</button>
+            <img src="/images/panda.svg" alt="Panda">
+        </header>
+    
+        <div class="grid">
+    
+            <!-- <div class="card">
+                <div class="face front"></div>
+                <div class="face back"></div>
+            </div>-->
+    
+       </div>
+
+       <div class="victory-message hidden">
+        <p>Parabéns, <span class="player-name"></span>! Seu tempo foi: <span class="final-time"></span> e <span class="final-moves"></span> jogadas.</p>
+       </div>
+
+       <audio id="flipSound" src="../sounds/playing_card_turn_over_on_table.mp3" proload="auto"></audio>
+
+    </main>
+   
+</body>
+</html>
