@@ -58,3 +58,11 @@ img {
     cursor: auto;
 
 }
+
+@media screen and (min-width: 760px) and (max-width: 1020px) {
+    
+    img {
+        width: 60%;
+    }
+
+  }
