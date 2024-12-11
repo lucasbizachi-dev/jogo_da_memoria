@@ -142,4 +142,46 @@ img {
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
     }
 }
+
+@media screen and (min-width: 768px) and (min-height: 1024px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(235, 232, 232); /* Fundo cinza */
+        display: flex; /* Centralizar conteúdo */
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        min-height: 100vh; /* Garante altura de 100% da tela */
+    }
+
+    main {
+        width: 95%; /* Tamanho ajustado */
+        max-width: 1200px; /* Define um limite máximo */
+        background-color: rgb(235, 232, 232); /* Fundo branco para o main */
+        border-radius: 10px; /* Bordas arredondadas (opcional) */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Espaço entre o contador e o grid */
+    }
+
+    header {
+        width: 50%;
+        align-self: center; /* Centraliza o contador horizontalmente */
+        margin-bottom: 20px; /* Adiciona espaçamento inferior */
+
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Define 4 colunas no grid */
+        gap: 15px;
+        justify-content: center; /* Centraliza o grid horizontalmente */
+    }
+}
+
   
