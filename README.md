@@ -25,7 +25,10 @@ Este é um jogo da memória desenvolvido em JavaScript, que utiliza ilustraçõe
 
 ## Capturas de Tela
 
-Adicione aqui capturas de tela do jogo funcionando para atrair mais interessados.
+<p align="center">
+  <img src="images/1.png" alt="Descrição da Imagem" width="300">
+  <img src="images/2.png" alt="Descrição da Imagem" width="300">
+</p>
 
 
 ## Como Executar Localmente
