@@ -62,7 +62,4 @@ Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
-## Autor
-
-Criado por [Seu Nome](https://github.com/seu-usuario). Sinta-se à vontade para entrar em contato para dúvidas ou feedback!
 
