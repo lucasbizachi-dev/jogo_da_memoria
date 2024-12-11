@@ -28,6 +28,10 @@ Este é um jogo da memória desenvolvido em JavaScript, que utiliza ilustraçõe
 <p align="center">
   <img src="images/1.png" alt="Descrição da Imagem" width="300">
   <img src="images/2.png" alt="Descrição da Imagem" width="300">
+  <img src="images/desk01.png" alt="Descrição da Imagem" width="600">
+  <img src="images/desk02.png" alt="Descrição da Imagem" width="600">
+  <img src="images/tablet.png" alt="Descrição da Imagem" width="450">
+  <img src="images/tablet02.png" alt="Descrição da Imagem" width="450">
 </p>
 
 
